@@ -41,11 +41,37 @@ class Application:
         self.tile1 = self.tileview.add_tile(0, 0, lv.DIR.RIGHT)
         self.tile2 = self.tileview.add_tile(1, 0, lv.DIR.LEFT)
 
+        """Första sidan"""
+
+        #Titel
         self.tile1_label = lv.label(self.tile1)
         self.tile1_label.set_text("Public Transport:")
         self.tile1_label.set_style_text_font(lv.font_montserrat_28, 0)
         self.tile1_label.center()
         self.apply_tile_colors(self.tile1, self.tile1_label, False)
+
+        #Grupp Nummer
+        self.group_number = lv.label(self.tile1)
+        self.group_number.set_text("Group 20")
+        self.group_number.set_style_text_font(lv.font_montserrat_14, 0)
+        self.group_number.align(lv.ALIGN.TOP_LEFT, 10, 10)
+        self.group_number.set_style_text_color(lv.color_hex(0x000000), 0)
+    
+        #Version
+        self.version_label = lv.label(self.tile1)
+        self.version_label.set_text("Version: 1.0")
+        self.version_label.set_style_text_font(lv.font_montserrat_18, 0)
+        self.version_label.align(lv.ALIGN.BOTTOM_LEFT, 10, -10)
+        self.version_label.set_style_text_color(lv.color_hex(0x000000), 0)
+
+        #Gruppmedlemmar
+        self.members_label = lv.label(self.tile1)
+        self.members_label.set_text("Lucas, Matheo, William, Alex, Sam")
+        self.members_label.set_style_text_font(lv.font_monsterrat_14, 0)
+        self.members_label.align(lv.ALIGN.TOP_RIGHT, -10, 10)
+        self.members_label.set_style_text_color(lv.color_hex(0x000000), 0)
+
+        """Andra sidan """
 
         self.tile2_label = lv.label(self.tile2)
         self.tile2_label.set_text("Welcome to the workshop")
