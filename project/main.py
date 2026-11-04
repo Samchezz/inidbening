@@ -60,14 +60,14 @@ class Application:
         #Version
         self.version_label = lv.label(self.tile1)
         self.version_label.set_text("Version: 1.0")
-        self.version_label.set_style_text_font(lv.font_montserrat_18, 0)
+        self.version_label.set_style_text_font(lv.font_montserrat_14, 0)
         self.version_label.align(lv.ALIGN.BOTTOM_LEFT, 10, -10)
         self.version_label.set_style_text_color(lv.color_hex(0x000000), 0)
 
         #Gruppmedlemmar
         self.members_label = lv.label(self.tile1)
         self.members_label.set_text("Lucas, Matheo, William, Alex, Sam")
-        self.members_label.set_style_text_font(lv.font_monsterrat_14, 0)
+        self.members_label.set_style_text_font(lv.font_montserrat_14, 0)
         self.members_label.align(lv.ALIGN.TOP_RIGHT, -10, 10)
         self.members_label.set_style_text_color(lv.color_hex(0x000000), 0)
 
