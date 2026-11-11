@@ -30,7 +30,7 @@ def filter_departures(departures, transport_type="ALL"):
     if mode == transport_type:
       filtered.append(departure)
 
-    return filtered
+  return filtered
 
 def get_departure_status(departure):
   if departure.get("canceled", False):
@@ -52,7 +52,7 @@ def get_departure_status(departure):
 
   return "On time"
 
-def format_departures(departure):
+def format_departure(departure):
 
   route = departure.get("route", {})
 
@@ -90,6 +90,6 @@ def get_filtered_departures(stop_id, transport_type="ALL"):
     result = []
 
     for departure in departures:
-        result.append(format.departure(departure))
+        result.append(format_departure(departure))
 
     return result
