@@ -4,7 +4,7 @@ from secrets import TRAFIKLAB_API_KEY
 base_url = "https://realtime-api.trafiklab.se/v1/departures/"
 
 def get_departures(stop_id):
-  url = BASE_URL + str(stop_id) + "?key=" + TRAFIKLAB_API_KEY
+  url = base_url + str(stop_id) + "?key=" + TRAFIKLAB_API_KEY
   response = requests.get(url)
 
   try:
@@ -14,35 +14,35 @@ def get_departures(stop_id):
     data = response.json()
     return data.get("departures", [])
 
-    finally:
-      response.close()
+  finally:
+    response.close()
 
 def filter_departures(departures, transport_type="ALL"):
   transport_type = transport_type.upper()
   if transport_type == "ALL":
-    return.departures
+    return departures
 
-filterd = []
-for departure in departures:
-  route  = daparture.get("route", {})
-  mode = route.get("transport_mode", "")
+  filtered = []
+  for departure in departures:
+    route  = departure.get("route", {})
+    mode = route.get("transport_mode", "")
 
-  if mode == transport_type:
-    filtered.append(departure)
+    if mode == transport_type:
+      filtered.append(departure)
 
-return filterd
+    return filtered
 
 def get_departure_status(departure):
   if departure.get("canceled", False):
         return "Cancelled"
 
   if not departure.get("is_realtime", False):
-        return "Scheduled
+        return "Scheduled"
 
   delay = departure.get("delay")
 
   if delay is None:
-    Return "Realtime"
+    return "Realtime"
 
 
 
@@ -90,8 +90,6 @@ def get_filtered_departures(stop_id, transport_type="ALL"):
     result = []
 
     for departure in departures:
-        result.append(format_departure(departure))
+        result.append(format.departure(departure))
 
     return result
-
-##
