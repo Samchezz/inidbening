@@ -9,7 +9,7 @@ class PageOne:
         self.tile1_label.set_text("Public Transport:")
         self.tile1_label.set_style_text_font(lv.font_montserrat_28, 0)
         self.tile1_label.center()
-        apply_tile_colors(tile)
+        apply_tile_colors(tile, False)
 
         #Grupp Nummer
         self.group_number = lv.label(tile)

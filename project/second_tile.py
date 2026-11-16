@@ -10,4 +10,4 @@ class PageTwo:
         self.tile2_label.set_text("Welcome to the workshop")
         self.tile2_label.set_style_text_font(lv.font_montserrat_28, 0)
         self.tile2_label.center()
-        apply_tile_colors(tile)
+        apply_tile_colors(tile, False)

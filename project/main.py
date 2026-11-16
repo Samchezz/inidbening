@@ -33,6 +33,7 @@ class Application:
         self.tile2 = self.tileview.add_tile(1, 0, lv.DIR.LEFT | lv.DIR.RIGHT)
         self.tile3 = self.tileview.add_tile(2, 0, lv.DIR.LEFT)
 
+        # Each tiles' UI is created in a separate class in a separate file. This is to try and avoid merge conflicts in GitHub
         self.page_one = PageOne(self.tile1)
         self.page_two = PageTwo(self.tile2)
         self.page_three = PageThree(self.tile3)
