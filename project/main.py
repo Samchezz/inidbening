@@ -8,7 +8,10 @@ import wifi
 
 from board_lvgl import start_board
 from debug_log import log
+
 from first_tile import PageOne
+from second_tile import PageTwo
+from third_tile import PageThree
 
 from secrets import WIFI_SSID, WIFI_PASSWORD
 
@@ -31,15 +34,8 @@ class Application:
         self.tile3 = self.tileview.add_tile(2, 0, lv.DIR.LEFT)
 
         self.page_one = PageOne(self.tile1)
-
-        
-
-        """Andra sidan """
-
-        self.tile2_label = lv.label(self.tile2)
-        self.tile2_label.set_text("Welcome to the workshop")
-        self.tile2_label.set_style_text_font(lv.font_montserrat_28, 0)
-        self.tile2_label.center()
+        self.page_two = PageTwo(self.tile2)
+        self.page_three = PageThree(self.tile3)
 
 
 try:
