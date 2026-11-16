@@ -4,6 +4,8 @@ import time
 import lvgl as lv
 import network
 
+import wifi
+
 from board_lvgl import start_board
 from debug_log import log
 
@@ -15,7 +17,7 @@ class Application:
         self.display, self.touch, self.handler = start_board()
         self.tile2_dark = False
         self.create_ui()
-        self.connect_wifi()
+        self.wifi = wifi.Wifi()
         log("student application ready")
 
     @staticmethod
@@ -82,20 +84,6 @@ class Application:
         self.tile2.add_event_cb(
             self.on_tile2_clicked, lv.EVENT.CLICKED, None
         )
-
-    @staticmethod
-    def connect_wifi():
-        'Function: Connects to WiFi'
-        log("connecting to Wi-Fi SSID: " + WIFI_SSID)
-        station = network.WLAN(network.STA_IF)
-        station.active(True)
-        station.connect(WIFI_SSID, WIFI_PASSWORD)
-        started = time.ticks_ms()
-        while (not station.isconnected() and
-               time.ticks_diff(time.ticks_ms(), started) < 15_000):
-            time.sleep_ms(250)
-        log("Wi-Fi connected" if station.isconnected()
-            else "Wi-Fi could not connect (timeout)")
 
 
 try:
