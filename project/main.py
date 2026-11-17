@@ -9,14 +9,16 @@ import wifi
 from board_lvgl import start_board
 from debug_log import log
 from tile_colors import apply_tile_colors
+from trafiklabb import get_filtered_departures
+
 
 from secrets import WIFI_SSID, WIFI_PASSWORD
 
 class Application:
     def __init__(self):
         self.display, self.touch, self.handler = start_board()
-        self.create_ui()
         self.wifi = wifi.Wifi()
+        self.create_ui()
         log("student application ready")
 
     def create_ui(self):
@@ -68,15 +70,38 @@ class Application:
         """ Tile 2 """
         
         self.tile2_label = lv.label(self.tile2)
-        self.tile2_label.set_text("Welcome to the workshop")
+        self.tile2_label.set_text("Departures")
         self.tile2_label.set_style_text_font(lv.font_montserrat_28, 0)
-        self.tile2_label.center()
-        with open ("settings.txt","r") as s:
-            s.readline()
-            dark = True
-            if (s.readline() == "Light"):
-                dark = False
-            apply_tile_colors(self.tile2, dark)
+        self.tile2_label.align(lv.ALIGN.TOP_MID, 0, 10)
+
+        self.table = lv.table(self.tile2)
+        self.table.set_row_count(5)
+        self.table.set_column_count(5)
+        self.table.set_size(500,350)
+        self.table.align(lv.ALIGN.TOP_MID, 0, 50)
+        for i in range(5):
+            self.table.set_column_width(i, 100)
+
+        self.table.set_cell_value(0,0, "Time:")
+        self.table.set_cell_value(0,1, "Line:")
+        self.table.set_cell_value(0,2, "Dest.:")
+        self.table.set_cell_value(0,3, "Status:")
+        self.table.set_cell_value(0,4, "Tran.:")
+
+        departures = []
+        if self.wifi.wifi_conection() is True:
+            try:
+                departures = get_filtered_departures("0")
+            except Exception as error:
+                log("Can not get departures: %r" % (error,))
+
+        for row, x in enumerate(departures[:4]):
+            self.table.set_cell_value(row + 1, 0, str(x["time"]))
+            self.table.set_cell_value(row + 1, 1, str(x["line"]))
+            self.table.set_cell_value(row + 1, 2, str(x["destination"]))
+            self.table.set_cell_value(row + 1, 3, str(x["status"]))
+            self.table.set_cell_value(row + 1, 4, str(x["transport_type"]))
+            
 
         """ Tile 3 """
 
