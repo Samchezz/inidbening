@@ -6,7 +6,7 @@ import time
 
 
 from secrets import WIFI_SSID, WIFI_PASSWORD
-# from debug_log.py import log
+from debug_log import log
 
 class Wifi:
     def __init__(self):
