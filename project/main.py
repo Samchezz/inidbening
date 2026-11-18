@@ -146,20 +146,30 @@ class Application:
         # Activates/deactivates dark mode
         self.color_scheme.add_event_cb(self.on_change_color_scheme, lv.EVENT.VALUE_CHANGED, None)
 
-    def update_departures(self, update=None):
-        departures = []
-        if self.wifi.wifi_conection() is True:
-            try:
-                departures = get_filtered_departures("0")
-            except Exception as error:
-                log("Can not get departures: %r" % (error,))
 
-        for row, x in enumerate(departures[:4]):
-            self.table.set_cell_value(row + 1, 0, str(x["time"]))
-            self.table.set_cell_value(row + 1, 1, str(x["line"]))
-            self.table.set_cell_value(row + 1, 2, str(x["destination"]))
-            self.table.set_cell_value(row + 1, 3, str(x["status"]))
-            self.table.set_cell_value(row + 1, 4, str(x["transport_type"]))
+def update_departures(self, update=None):
+    if self.wifi.wifi_conection() is True:
+        try:
+            selected_transport = ["ALL", "BUS", "TRAIN", "FERRY"][self.transport_type.get_selected()]
+
+            departures = get_filtered_departures("740032188", selected_transport)
+
+            # Clear old departures
+            for row in range(1, 5):
+                for column in range(5):
+                    self.table.set_cell_value(row, column, "")
+
+            # Display new departures
+            for row, x in enumerate(departures[:4]):
+                self.table.set_cell_value(row + 1, 0, str(x["time"]))
+                self.table.set_cell_value(row + 1, 1, str(x["line"]))
+                self.table.set_cell_value(row + 1, 2, str(x["destination"]))
+                self.table.set_cell_value(row + 1, 3, str(x["status"]))
+                self.table.set_cell_value(row + 1, 4, str(x["transport_type"]))
+
+        except Exception as error:
+            log("Can not get departures: %r" % (error,))
+
 
 
     def on_change_color_scheme(self, _event):
