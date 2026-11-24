@@ -185,42 +185,42 @@ class Application:
         self.color_scheme.add_event_cb(self.on_change_color_scheme, lv.EVENT.VALUE_CHANGED, None)
 
 
-def update_departures(self, update=None):
+    def update_departures(self, update=None):
 
-    # Check that a stop has been selected
-    if self.selected_stop_id is None:
-        log("No stop selected")
-        return
+        # Check that a stop has been selected
+        if self.selected_stop_id is None:
+            log("No stop selected")
+            return
 
-    # Check Wi-Fi connection
-    if self.wifi.wifi_conection() is True:
-        try:
-            # Get selected transport type
-            selected_transport = [
-                "ALL", "BUS", "TRAIN", "FERRY", "BOAT"
-            ][self.transport_type.get_selected()]
+        # Check Wi-Fi connection
+        if self.wifi.wifi_conection() is True:
+            try:
+                # Get selected transport type
+                selected_transport = [
+                    "ALL", "BUS", "TRAIN", "FERRY", "BOAT"
+                ][self.transport_type.get_selected()]
 
-            # Get formatted departures from Trafiklab
-            departures = get_filtered_departures(
-                self.selected_stop_id,
-                selected_transport
-            )
+                # Get formatted departures from Trafiklab
+                departures = get_filtered_departures(
+                    self.selected_stop_id,
+                    selected_transport
+                )
 
-            # Clear old departures
-            for row in range(1, 5):
-                for column in range(5):
-                    self.table.set_cell_value(row, column, "")
+                # Clear old departures
+                for row in range(1, 5):
+                    for column in range(5):
+                        self.table.set_cell_value(row, column, "")
 
-            # Display new departures
-            for row, departure in enumerate(departures[:4]):
-                self.table.set_cell_value(row + 1, 0, departure["time"])
-                self.table.set_cell_value(row + 1, 1, departure["line"])
-                self.table.set_cell_value(row + 1, 2, departure["destination"])
-                self.table.set_cell_value(row + 1, 3, departure["status"])
-                self.table.set_cell_value(row + 1, 4, departure["transport_type"])
+                # Display new departures
+                for row, departure in enumerate(departures[:4]):
+                    self.table.set_cell_value(row + 1, 0, departure["time"])
+                    self.table.set_cell_value(row + 1, 1, departure["line"])
+                    self.table.set_cell_value(row + 1, 2, departure["destination"])
+                    self.table.set_cell_value(row + 1, 3, departure["status"])
+                    self.table.set_cell_value(row + 1, 4, departure["transport_type"])
 
-        except Exception as error:
-            log("Can not get departures: %r" % (error,))
+            except Exception as error:
+                log("Can not get departures: %r" % (error,))
 
 
 
