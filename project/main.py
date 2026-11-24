@@ -1,5 +1,6 @@
 import sys
 import time
+import json
 
 import lvgl as lv
 import network
@@ -18,10 +19,47 @@ class Application:
     def __init__(self):
         self.display, self.touch, self.handler = start_board()
         self.wifi = wifi.Wifi()
+        self.load_stops()
         self.create_ui()
         self.update_departures()
         self.departures_updates = lv.timer_create(self.update_departures, 60000, None)
         log("student application ready")
+
+    def load_stops(self):
+        try:
+            with open ("karlskrona_stops_app.json", "r") as file:
+                self.stops = json.load(file)
+
+            self.selected_stop_id = self.stops[0]["id"]
+            self.selected_stop_name = self.stops[0]["name"]
+
+            log("Loaded %d stops" % len(self.stops))
+
+        except Exception as error:
+            self.stops = []
+            self.selected_stop_id = None
+            self.selected_stop_name = "No stop selected"
+
+            log("Could not load stops: %r" % (error,))
+
+    def search_stops(self, search_text):
+        search_text = search_text.lower().strip()
+
+        results = []
+
+        for stop in self.stops:
+         if search_text in stop["name"].lower():
+            results.append(stop)
+
+        return results
+    
+    def select_stop(self, stop):
+        self.selected_stop_id = stop["id"]
+        self.selected_stop_name = stop["name"]
+
+        log("Selected stop: %s" % self.selected_stop_name)
+
+        self.update_departures()
 
     def create_ui(self):
         'Function: Creates UI'
@@ -148,11 +186,25 @@ class Application:
 
 
 def update_departures(self, update=None):
+
+    # Check that a stop has been selected
+    if self.selected_stop_id is None:
+        log("No stop selected")
+        return
+
+    # Check Wi-Fi connection
     if self.wifi.wifi_conection() is True:
         try:
-            selected_transport = ["ALL", "BUS", "TRAIN", "FERRY"][self.transport_type.get_selected()]
+            # Get selected transport type
+            selected_transport = [
+                "ALL", "BUS", "TRAIN", "FERRY", "BOAT"
+            ][self.transport_type.get_selected()]
 
-            departures = get_filtered_departures("740032188", selected_transport)
+            # Get formatted departures from Trafiklab
+            departures = get_filtered_departures(
+                self.selected_stop_id,
+                selected_transport
+            )
 
             # Clear old departures
             for row in range(1, 5):
@@ -160,15 +212,17 @@ def update_departures(self, update=None):
                     self.table.set_cell_value(row, column, "")
 
             # Display new departures
-            for row, x in enumerate(departures[:4]):
-                self.table.set_cell_value(row + 1, 0, str(x["time"]))
-                self.table.set_cell_value(row + 1, 1, str(x["line"]))
-                self.table.set_cell_value(row + 1, 2, str(x["destination"]))
-                self.table.set_cell_value(row + 1, 3, str(x["status"]))
-                self.table.set_cell_value(row + 1, 4, str(x["transport_type"]))
+            for row, departure in enumerate(departures[:4]):
+                self.table.set_cell_value(row + 1, 0, departure["time"])
+                self.table.set_cell_value(row + 1, 1, departure["line"])
+                self.table.set_cell_value(row + 1, 2, departure["destination"])
+                self.table.set_cell_value(row + 1, 3, departure["status"])
+                self.table.set_cell_value(row + 1, 4, departure["transport_type"])
 
         except Exception as error:
             log("Can not get departures: %r" % (error,))
+
+
 
 
 
