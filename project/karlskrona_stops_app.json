@@ -1,0 +1,2868 @@
+[
+    {
+        "id": "740011100",
+        "name": "Mölletorp",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740011168",
+        "name": "Nävragöl",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740011166",
+        "name": "Nättraby skola",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740011165",
+        "name": "Nättraby Dalby",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740011061",
+        "name": "Mjövikstrandsv",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740011344",
+        "name": "Senoren vägskäl",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740035348",
+        "name": "Stubbemåla/Råsen vsk",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740011210",
+        "name": "Ramdala",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740011253",
+        "name": "Allatorp",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740011293",
+        "name": "Rödeby Ek",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740025942",
+        "name": "Gängletorp",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740011306",
+        "name": "Bostorp",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740011305",
+        "name": "S Binga",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740040917",
+        "name": "Karlskrona Amiralitetstorget",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740098298",
+        "name": "Fågelmara",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740001537",
+        "name": "Bergåsa station",
+        "transport_modes": [
+            "BUS",
+            "TRAIN"
+        ]
+    },
+    {
+        "id": "740025541",
+        "name": "Nättraby kyrka",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740074573",
+        "name": "Grönadals brygga",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740074579",
+        "name": "Alvarsmåla",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740074440",
+        "name": "Wämöparken brygga",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740074437",
+        "name": "Pottholmen brygga",
+        "transport_modes": []
+    },
+    {
+        "id": "740074438",
+        "name": "Saltö Fiskhamn brygga",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740074431",
+        "name": "Skeppsbron brygga",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740074432",
+        "name": "Björkholmen brygga",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740098084",
+        "name": "Karlskrona",
+        "transport_modes": [
+            "BOAT",
+            "BUS",
+            "TRAIN"
+        ]
+    },
+    {
+        "id": "740001062",
+        "name": "Fågelmara",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740078775",
+        "name": "Trummenäs Camping",
+        "transport_modes": []
+    },
+    {
+        "id": "740031827",
+        "name": "Kungsmarken centrum",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031828",
+        "name": "Gullaberg",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031825",
+        "name": "Kungsmarken B-huset",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031826",
+        "name": "Kungsmarken A-huset",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031829",
+        "name": "Marieberg",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031831",
+        "name": "Kyrkogården",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031834",
+        "name": "Ekedalsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031835",
+        "name": "Ga Riksvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031832",
+        "name": "Hälsovägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031833",
+        "name": "Knösövägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031816",
+        "name": "Sparre",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031817",
+        "name": "Alamedan",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031814",
+        "name": "Af Chapmangymnasiet",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031815",
+        "name": "Drottninggatan",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031823",
+        "name": "Ankaret",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031824",
+        "name": "Kungsmarken C-huset",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031821",
+        "name": "Varvet",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031805",
+        "name": "Södra Hässlegården",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031806",
+        "name": "Silvervägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031803",
+        "name": "Hässlegårdens förskola",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031809",
+        "name": "H Martinsons väg",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031807",
+        "name": "Spandelstorpskolan",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031808",
+        "name": "Spandelstorp",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031812",
+        "name": "Carlandravägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031813",
+        "name": "AWA vägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031810",
+        "name": "G Torhamns väg",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031811",
+        "name": "Afvelsgärdevägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031801",
+        "name": "Bastasjö",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031802",
+        "name": "Norra Hässlegården",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031800",
+        "name": "Karlskrona Amiralen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031869",
+        "name": "Knösö",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031874",
+        "name": "Ekholmen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031878",
+        "name": "Strandgatan",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031879",
+        "name": "Långö",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031877",
+        "name": "Tullparken",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031870",
+        "name": "Saltö",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031871",
+        "name": "Saltö torg",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031859",
+        "name": "Uranvägen Torskors",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031863",
+        "name": "Gullberna station",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031864",
+        "name": "Ringöbron",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031868",
+        "name": "Hultvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031865",
+        "name": "Lallerstedts gata",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031866",
+        "name": "Gullberna Park",
+        "transport_modes": []
+    },
+    {
+        "id": "740031849",
+        "name": "Hästö",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031847",
+        "name": "Hästö idrottsplats",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031848",
+        "name": "Herrgårdsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031853",
+        "name": "Chapmansplan",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031838",
+        "name": "Södra Ringö",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031839",
+        "name": "Ängholmen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031837",
+        "name": "Ringö",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031841",
+        "name": "Toras väg",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031842",
+        "name": "Roxtec Verkö",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031840",
+        "name": "Verkö",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031844",
+        "name": "NKT Verkö",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031896",
+        "name": "Klakebäcksvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031897",
+        "name": "Ekerydsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031894",
+        "name": "Duverum",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031895",
+        "name": "Ekedalsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031898",
+        "name": "N Binga",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031899",
+        "name": "Käxelåkra",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031892",
+        "name": "Rosenhill",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031893",
+        "name": "Vallby",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031886",
+        "name": "Karlskrona Angöringen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031889",
+        "name": "Lösen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031887",
+        "name": "Kvarngatan",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031888",
+        "name": "Galgamarkstrappan",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031881",
+        "name": "Egilslunden",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031882",
+        "name": "Ordensgatan",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031880",
+        "name": "Lagmansgatan",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031795",
+        "name": "Östra Torp",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031796",
+        "name": "Annebo",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031799",
+        "name": "Stationsvägen Slottsbacken",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031790",
+        "name": "Intagsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031793",
+        "name": "Carlemansvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031794",
+        "name": "Kronotorp",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031791",
+        "name": "Backabo",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031792",
+        "name": "Stadsträdgården",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031784",
+        "name": "Sunnadal",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031789",
+        "name": "Ekeberg",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031783",
+        "name": "Lindesnäs",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031781",
+        "name": "Bergåsa centrum",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031779",
+        "name": "Polhemsgatan",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031777",
+        "name": "Landsvägsgatan",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031778",
+        "name": "Tullskolan",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740021801",
+        "name": "Stenshamn brygga",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740021802",
+        "name": "Ungskär brygga",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740021796",
+        "name": "Ytterön brygga",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740021798",
+        "name": "Långören brygga",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740021799",
+        "name": "Inlängan brygga",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740021794",
+        "name": "Herrgårdsviken (Tjurkö) brygga",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740021795",
+        "name": "Sanda",
+        "transport_modes": []
+    },
+    {
+        "id": "740011623",
+        "name": "Tjurkö kyrka",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740011636",
+        "name": "Torhamn",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740011676",
+        "name": "Tving",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740011646",
+        "name": "Torskors",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740011462",
+        "name": "Spjutsbygd",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740035415",
+        "name": "Masten vsk",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740011485",
+        "name": "Stengöl",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740011484",
+        "name": "Steneryd",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740059480",
+        "name": "Kristanopel vsk",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740011519",
+        "name": "Strömsberg",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740011526",
+        "name": "Stubbelycke",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031908",
+        "name": "E22",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031909",
+        "name": "Gröna huset",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031906",
+        "name": "Milastensvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031907",
+        "name": "Björkedal",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031911",
+        "name": "Ekeryd",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031912",
+        "name": "Sillesåsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031910",
+        "name": "Häcken",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031900",
+        "name": "Törnåkra",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031901",
+        "name": "Enkullen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031948",
+        "name": "Attanäs",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031949",
+        "name": "Truseryd",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031946",
+        "name": "S Svanhalla",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031947",
+        "name": "Orranäs",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031951",
+        "name": "Sandhamn",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031952",
+        "name": "St Måns väg",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031950",
+        "name": "Sandhamns ek",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031955",
+        "name": "Möcklerydsv",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031956",
+        "name": "Hammarsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031953",
+        "name": "Gisslevik",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031954",
+        "name": "Möckleryd",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031937",
+        "name": "Björkenäs",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031938",
+        "name": "Björkenäs kvarn",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031935",
+        "name": "Gullholma",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031936",
+        "name": "N Attanäs",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031939",
+        "name": "Bredäng",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031940",
+        "name": "Långenabben",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031941",
+        "name": "Flyetvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031944",
+        "name": "Hamnvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031945",
+        "name": "Svanhalla",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031942",
+        "name": "Sibbaboda",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031943",
+        "name": "Annebergsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031926",
+        "name": "Klakebäck",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031927",
+        "name": "Hjälmserydsv",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031924",
+        "name": "Törnåkravägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031925",
+        "name": "Olofshem",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031928",
+        "name": "Orranäs gata",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031929",
+        "name": "Horsarydsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031930",
+        "name": "Skearydsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031933",
+        "name": "Sofieborgsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031934",
+        "name": "N Orranäs",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031931",
+        "name": "Björkdalavägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031932",
+        "name": "Mariedalsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031915",
+        "name": "Vattentornet",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031916",
+        "name": "Söremåla",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031913",
+        "name": "Flyerydsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031914",
+        "name": "S Fågelmara",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031919",
+        "name": "Rörsängsgatan",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031917",
+        "name": "Eklunda",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031918",
+        "name": "Bråtelycke",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031922",
+        "name": "Stålemara",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031923",
+        "name": "Olsäng",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031920",
+        "name": "Karlstorp",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031921",
+        "name": "Fågelmara gård",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031996",
+        "name": "Augerums kyrka",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031994",
+        "name": "Råbacken",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031999",
+        "name": "Krokebro",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031997",
+        "name": "Mariefors",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031998",
+        "name": "Mölleåker",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031990",
+        "name": "Säby",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031979",
+        "name": "Killevägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031984",
+        "name": "Sanda",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031985",
+        "name": "Smedvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031982",
+        "name": "Sturköhallen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031983",
+        "name": "Tockatorp",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031988",
+        "name": "Lejonbacken",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031989",
+        "name": "Sundetvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031986",
+        "name": "Kungastenen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031987",
+        "name": "Djupasund",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031980",
+        "name": "Strannakullen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031981",
+        "name": "Skallatorp",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031968",
+        "name": "Möcklö",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031969",
+        "name": "Karlsberg",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031973",
+        "name": "Skällenäs",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031974",
+        "name": "Dragsvik",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031971",
+        "name": "Västernäs",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031972",
+        "name": "Skällö",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031977",
+        "name": "Hålan",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031978",
+        "name": "Sturkö skola",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031975",
+        "name": "Frändatorp",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031976",
+        "name": "Bredavik",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031970",
+        "name": "Möcklöbron",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031959",
+        "name": "Hallaslättslyckan",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031957",
+        "name": "Stora Rom",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031958",
+        "name": "Branthalla",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031962",
+        "name": "Jändelskolan",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031960",
+        "name": "Hallarums backe",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031961",
+        "name": "Hallarum",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031966",
+        "name": "Torstäva",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031967",
+        "name": "Trummenäsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031964",
+        "name": "Torstäva vsk",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740031965",
+        "name": "Torsnäsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032976",
+        "name": "Wämöparken",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032048",
+        "name": "Brödlösevägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032049",
+        "name": "Eringsbodavägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032042",
+        "name": "Norra Svensgöl",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032043",
+        "name": "Staffansbygd",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032041",
+        "name": "Svensgöl",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032047",
+        "name": "Sillhövda kyrka",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032044",
+        "name": "Nävrasjö",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032045",
+        "name": "Sillhövda",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032039",
+        "name": "Strandvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032037",
+        "name": "Strandhem",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032038",
+        "name": "Kvarnagårdsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032031",
+        "name": "Granholmen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032032",
+        "name": "Ekekullen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032030",
+        "name": "S Svensgöl",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032035",
+        "name": "Tvingelshed",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032036",
+        "name": "Kuleryd",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032033",
+        "name": "Skogsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032034",
+        "name": "Rydsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032028",
+        "name": "S Fjärdsjömåla",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032029",
+        "name": "Hildehult",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032026",
+        "name": "Allsjömåla",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032027",
+        "name": "N Flymen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032020",
+        "name": "Yasjö",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032021",
+        "name": "Viökvarnsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032024",
+        "name": "Lillö",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032025",
+        "name": "Bromålavägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032022",
+        "name": "Viövägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032023",
+        "name": "Göksjöholm",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032017",
+        "name": "Stationsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032018",
+        "name": "Mörtövägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032015",
+        "name": "Viadukten",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032016",
+        "name": "Trastvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032019",
+        "name": "Skärvaboda",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032010",
+        "name": "Bubbetorp",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032013",
+        "name": "Rödebyskolan",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032014",
+        "name": "Granitvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032082",
+        "name": "Bjurabyggetv",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032083",
+        "name": "Åsen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032080",
+        "name": "Falan",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032081",
+        "name": "S Buggamåla",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032086",
+        "name": "Skolhpl",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032087",
+        "name": "Silleboda",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032084",
+        "name": "Ärkilsmåla",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032085",
+        "name": "Stensborg",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032088",
+        "name": "Bjärby",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032089",
+        "name": "Skillinge",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032071",
+        "name": "Måstad",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032072",
+        "name": "Kallingevägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032070",
+        "name": "Byasjövägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032075",
+        "name": "Bergtorpsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032076",
+        "name": "Offamåla",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032073",
+        "name": "Marieberg Tving",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032074",
+        "name": "Skärfva by",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032079",
+        "name": "Figgamålaväg",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032077",
+        "name": "Idehult",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032078",
+        "name": "Långemålavägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032060",
+        "name": "Johannesberg",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032061",
+        "name": "Högklint",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032064",
+        "name": "Pålycke",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032065",
+        "name": "Smedjetorpsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032062",
+        "name": "Emmeryd",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032063",
+        "name": "Missionshuset",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032068",
+        "name": "Bråstorp",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032069",
+        "name": "Berg",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032066",
+        "name": "Höryda",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032067",
+        "name": "Bröstorp",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032050",
+        "name": "Sofieberg",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032059",
+        "name": "Kemivägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032053",
+        "name": "Saleboda vsk",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032054",
+        "name": "Hörydavägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032051",
+        "name": "Södra Fur",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032052",
+        "name": "Åbyholmsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032055",
+        "name": "Lugna Dal",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032056",
+        "name": "Uddabygd",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032090",
+        "name": "Bjärbylund",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032091",
+        "name": "Skönstavik",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032092",
+        "name": "Karlsgärde",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032097",
+        "name": "Åvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032098",
+        "name": "Benabacken",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032095",
+        "name": "Såglyckan",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032096",
+        "name": "Bokskogsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032099",
+        "name": "Roslundavägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032125",
+        "name": "Karlskrona Aspöfärjan",
+        "transport_modes": []
+    },
+    {
+        "id": "740032116",
+        "name": "Tångenvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032115",
+        "name": "Nättrabyån",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032110",
+        "name": "Boråkra",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032105",
+        "name": "Grönadal",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032106",
+        "name": "Skillingenäs",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032104",
+        "name": "Dalamad",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032109",
+        "name": "Allévägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032107",
+        "name": "Färmanstorpsv",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032108",
+        "name": "Rosenholm",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032101",
+        "name": "Ängsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032100",
+        "name": "Granitvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740022583",
+        "name": "Sturkövägen vägskäl E22",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032006",
+        "name": "Fabbemåla vsk",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032007",
+        "name": "S Sälleryd",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032004",
+        "name": "Giserydsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032005",
+        "name": "Trollemåla",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032008",
+        "name": "Sälleryd",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032009",
+        "name": "Berget",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032002",
+        "name": "Mariefröjd",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032003",
+        "name": "Strågeryd",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032000",
+        "name": "Trollberget",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032001",
+        "name": "Sandbäcksmåla",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740022976",
+        "name": "Verkö färjeterminalen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032169",
+        "name": "Järavägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032149",
+        "name": "Skärva",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032147",
+        "name": "Brofästet",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032145",
+        "name": "Allatorp norra",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032146",
+        "name": "Bränteknuva by",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032144",
+        "name": "Wämöskolan Ekorrvägen",
+        "transport_modes": []
+    },
+    {
+        "id": "740032136",
+        "name": "Björkeryd",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032137",
+        "name": "Harstorp",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032130",
+        "name": "Tving skola",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032134",
+        "name": "Gillabro",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032135",
+        "name": "Mommelycke",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032132",
+        "name": "Bränteknuva vsk",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032133",
+        "name": "Målatorps vsk",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740071726",
+        "name": "Aspö Djupvik",
+        "transport_modes": []
+    },
+    {
+        "id": "740032192",
+        "name": "NKT Arena Karlskrona",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032193",
+        "name": "Lyckeby Slottsbacken",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032181",
+        "name": "Nävragöl slingan",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740032188",
+        "name": "Karlskrona campus Gräsvik",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740023365",
+        "name": "Tjurkö Stora Lycke",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740023361",
+        "name": "Spjutsbygds vsk",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740023364",
+        "name": "Sturkö kyrka",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740023363",
+        "name": "Strömsbergs skola",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740023373",
+        "name": "Fågelmara skola",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740023372",
+        "name": "Karlskrona centrum",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740023345",
+        "name": "Hasslö",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740023354",
+        "name": "Ramdala skola",
+        "transport_modes": []
+    },
+    {
+        "id": "740023356",
+        "name": "Ryd",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740023351",
+        "name": "Nättraby E22",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740023352",
+        "name": "Nättraby",
+        "transport_modes": []
+    },
+    {
+        "id": "740023402",
+        "name": "Senoren",
+        "transport_modes": []
+    },
+    {
+        "id": "740037242",
+        "name": "Lokstallarna",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740076466",
+        "name": "Trummenäs brygga",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740017987",
+        "name": "Wrängö brygga",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740017989",
+        "name": "Dragsö brygga",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740017988",
+        "name": "Sjuhalla brygga",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740017994",
+        "name": "Finskan (Tjurkö) brygga",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740017993",
+        "name": "Torhamns brygga",
+        "transport_modes": []
+    },
+    {
+        "id": "740017996",
+        "name": "Drottningskär Kastellet brygga",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740017995",
+        "name": "Kungsholmen brygga",
+        "transport_modes": []
+    },
+    {
+        "id": "740017997",
+        "name": "Karlskrona Marinmuseum",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740017990",
+        "name": "Brändaholm brygga",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740017992",
+        "name": "Yttre Park brygga",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740017991",
+        "name": "Nättraby Åslätten brygga",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740072529",
+        "name": "Hasslö Horn",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740072447",
+        "name": "Gullberna",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740072446",
+        "name": "Bredavik brygga",
+        "transport_modes": [
+            "BOAT",
+            "BUS"
+        ]
+    },
+    {
+        "id": "740072444",
+        "name": "Sandhamns hamn",
+        "transport_modes": []
+    },
+    {
+        "id": "740023537",
+        "name": "Rödebyholm",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740000469",
+        "name": "Sturkö Kvarnen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740000521",
+        "name": "Rödeby centrum",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740000333",
+        "name": "Jämjö centrum",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740024365",
+        "name": "Sjukhuset huvudentrén",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740010013",
+        "name": "Alnaryd",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740010009",
+        "name": "Allatorps gård",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740000771",
+        "name": "Holmsjö station",
+        "transport_modes": [
+            "BUS",
+            "TRAIN"
+        ]
+    },
+    {
+        "id": "740000564",
+        "name": "Nättraby hörnet",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740000597",
+        "name": "Brömsebro E22",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740000663",
+        "name": "Lyckeby centrum",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740000017",
+        "name": "Hasslö Fabian Månsons väg",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740000230",
+        "name": "Karlskrona Centralstation",
+        "transport_modes": [
+            "BOAT",
+            "BUS",
+            "TRAIN"
+        ]
+    },
+    {
+        "id": "740004348",
+        "name": "Uttorp",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740020510",
+        "name": "Karlskrona Kungsplan",
+        "transport_modes": [
+            "BUS",
+            "TRAIN"
+        ]
+    },
+    {
+        "id": "740020700",
+        "name": "Karlskrona Fisktorget",
+        "transport_modes": [
+            "BOAT"
+        ]
+    },
+    {
+        "id": "740020699",
+        "name": "Karlskrona Handelshamnen",
+        "transport_modes": [
+            "BOAT",
+            "BUS"
+        ]
+    },
+    {
+        "id": "740010723",
+        "name": "Jämjö Parkvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740010773",
+        "name": "Kestorp",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740010909",
+        "name": "Ledja",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740010999",
+        "name": "Lyckeåborg",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740010812",
+        "name": "Konungshamn",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740010826",
+        "name": "Kristianopel",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740010884",
+        "name": "Kättilsmåla",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740024914",
+        "name": "Tving Bygatan",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740024915",
+        "name": "Karlskrona Mariedal Motellet",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740010344",
+        "name": "Fjärdsjömåla",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740024966",
+        "name": "Nättraby centrum",
+        "transport_modes": [
+            "BOAT",
+            "BUS"
+        ]
+    },
+    {
+        "id": "740010195",
+        "name": "N Buggamåla",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740073767",
+        "name": "Hörnsjö",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740024855",
+        "name": "Hasslö Näsvägen",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740024854",
+        "name": "Fur sjukhus",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740010555",
+        "name": "Hallarna",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740010554",
+        "name": "Hasslö Horn kyrka",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740010377",
+        "name": "Fridlevstad",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740010387",
+        "name": "Fur",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740034395",
+        "name": "Tockamålav. E22",
+        "transport_modes": [
+            "BUS"
+        ]
+    },
+    {
+        "id": "740010414",
+        "name": "Garpahamnen brygga",
+        "transport_modes": []
+    }
+]
